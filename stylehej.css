@@ -1,6 +1,6 @@
 html{
     height: 100%;
-    background: linear-gradient(rgb(99, 99, 208), white);
+    background: linear-gradient(rgb(46, 46, 157), rgb(163, 184, 240));
 }
 
 .wrapper{
@@ -11,7 +11,6 @@ html{
     height: 100vh;
     align-items: center;
     justify-content: center;
-    margin:0 !important;
 }
 
 .container{
@@ -19,11 +18,12 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 300px;
-    width: 100px;
+    height: 90%;
+    width: 33%;
     background-color: white;
     padding:5px;
 }
+
 .box1{
     display:flex;
     justify-content: center;
@@ -46,11 +46,12 @@ html{
     background-color: rgb(236, 78, 78);
     
 }
+
 .box2{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 100%;
     height: 100%;
     margin: 5%;
     background-color: rgb(221, 206, 1);
@@ -68,13 +69,13 @@ html{
     width: 50%;
     height: 50%;
     background-color: rgb(255, 255, 105);
-
 }
+
 .box3{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 100%;
     height: 100%;
     background-color: rgb(0, 182, 12);
 }
